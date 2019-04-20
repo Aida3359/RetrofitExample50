@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://lomiren.kz/")
+                .baseUrl("https://lomiren.kz/intern/")
                 .build();
 
         Api api = retrofit.create(Api.class);

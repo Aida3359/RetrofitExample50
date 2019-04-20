@@ -10,7 +10,7 @@ import retrofit2.http.GET;
 import retrofit2.http.POST;
 
 public interface Api {
-    @GET("/intern/user/1")
+    @GET("/intern/category")
     Call<ResponseBody>getPosts();
 
     @GET("/users")
